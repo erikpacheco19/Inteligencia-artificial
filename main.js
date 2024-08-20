@@ -6,54 +6,52 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Quando você começa um novo projeto de programação, qual é a sua abordagem inicial?",
+        enunciado: "os aparelhos auditivos sao fornecidos  gratuitamente pelo SUS"?
         alternativas: [
             {
-                texto: "Gosto de planejar detalhadamente antes de começar a codificar.",
-                afirmacao: "<b>Organização</b> é uma característica forte sua, valorizando o planejamento detalhado."
+                texto: "sim.",
+                afirmacao: "<b>não</b> depende o nivel de surdez."
             },
             {
-                texto: "Prefiro começar a codificar logo e ajustar o plano conforme avanço.",
-                afirmacao: "Você se destaca pela <b>dinamismo</b>, gostando de aprender e ajustar durante o processo."
+                texto: "existe modelo certo de aparelho para cada nivel de surdez?.",
+                afirmacao: "para cada nivel de <b>surdez</b>, existem diferentes tipos de aparelho."
             }
         ]
     },
     {
-        enunciado: "Como você lida com problemas ou bugs no seu código?",
+        enunciado: "o que é Implante Coclear?",
         alternativas: [
             {
-                texto: "Gosto de resolver os problemas sozinho, pesquisando e testando diferentes soluções.",
-                afirmacao: "Independência define sua abordagem para resolver problemas, confiando nas suas <b>habilidades de pesquisa</b>."
+                texto: "implante realizado na coclea.",
+                afirmacao: "popularmente conhecido como <b>ouvido</b> biônico."
             },
             {
-                texto: "Prefiro pedir ajuda a colegas ou em fóruns de programação quando encontro dificuldades.",
-                afirmacao: "Colaboração é essencial para você, apreciando a <b>troca de conhecimento</b> com outros programadores."
+                texto: "o implante estimula diretamente o nervo auditivo.",
+                afirmacao: "os eletrodos colocados dentro da cóclea e o nervo <b>auditivo</b> leva esfes sinais para o cérebro."
             }
         ]
     },
     {
-        enunciado: "Qual é a sua preferência em relação à estética versus funcionalidade em um projeto?",
-        alternativas: [
-            {
-                texto: "Acredito que a funcionalidade é mais importante que a estética.",
-                afirmacao: "<b>Pragmatismo</b> é uma característica sua, priorizando a funcionalidade e a eficiência do código."
+        enunciado: "Todos os surdos tem desejo de realizar o Implante Coclear?" 
+                texto: "Nao.",
+                afirmacao: "<b>surdos</b> implantados relatam que o implante causa dor de cabeça e desconforto."
             },
             {
-                texto: "Valorizo muito a estética e gosto de criar interfaces visualmente atraentes.",
-                afirmacao: "<b>Detalhista</b>, você dá muita importância à aparência e à experiência do usuário."
+                texto: "alguns surdos são contra o implante.",
+                afirmacao: "<b>surdos</b>, que se aceitam como surdos ."
             }
         ]
     },
     {
-        enunciado: "Qual é a sua postura em relação ao aprendizado de novas tecnologias?",
+        enunciado: "se aceitam como surdos e utilizam a LIBRAS",
         alternativas: [
             {
-                texto: "Prefiro me aprofundar nas tecnologias que já conheço bem antes de explorar novas.",
+                texto: "como forma de comunicaçao.",
                 afirmacao: "<b>Foco</b> é seu ponto forte, preferindo dominar suas ferramentas atuais."
             },
             {
-                texto: "Gosto de experimentar e aprender novas tecnologias constantemente.",
-                afirmacao: "<b>Curiosidade</b> é uma marca sua, sempre em busca de novas ferramentas e técnicas."
+                texto: "se identificam como surdos e aceitam .",
+                afirmacao: "<b>tipos de identidade surda</b>."
             }
         ]
     },
